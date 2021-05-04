@@ -1,0 +1,66 @@
+body, nav, ul, li, table{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    padding: 10px 5%;
+}
+ul.menu{
+    position: absolute;
+}
+ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+ul.guide{
+    display: none;
+    position: relative;
+    top: -52px;
+    left: 350px;
+}
+.menu li{
+    width: 350px;
+    height: 50px;
+}
+.menu li>a, .guide li>a{
+    display: block;
+    text-transform: uppercase;
+    background-color: rgb(185, 112, 29);
+    padding: 0.7rem;
+    text-decoration: none;
+    color: rgb(242, 241, 248);
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 1px solid blue;
+
+}
+.menu li>a:hover, .guide li>a:hover{
+	text-shadow: -1px -1px 2px white;
+    background-color: rgb(32, 80, 129);
+    transition: all 0.3s ease;
+}
+.active:hover ul.guide{
+    display: block;
+}
+.backmain{
+    display: inline-block;
+    background-color: rgb(88, 30, 9);
+}
+.backmain{
+    padding: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.content, .staff{
+    margin-top: 1rem;
+}
+table{
+	border: 1px solid black;
+}
+th, td{
+	width: 200px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}

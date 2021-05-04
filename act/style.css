@@ -1,0 +1,32 @@
+body, nav, ul, li, table{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    padding: 10px 5%;
+}
+a{
+    display: inline-block;
+    background-color: rgb(88, 30, 9);
+    padding: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.content {
+    margin-top: 1rem;
+}
+table{
+	border: 1px solid black;
+}
+th, td {
+	width: 200px;
+	border: 1px solid black;
+	text-align: center;
+}
+.short {
+    width: 100px;
+}
+.long {
+    width: 1000px;
+}
